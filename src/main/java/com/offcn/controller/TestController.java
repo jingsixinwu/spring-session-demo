@@ -17,4 +17,14 @@ public class TestController {
     public String getSession(HttpSession session){
         return (String)session.getAttribute("msg");
     }
+
+    /**
+     * 新增分支方法
+     */
+    public void fengzhi(){
+        System.out.println("fengzhi新增方法");
+    }
+
+
+
 }
